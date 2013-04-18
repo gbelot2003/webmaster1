@@ -18,7 +18,30 @@ background: #002F51;
 	height: 60px;
 }
 
-	/** Menu Principal **/
+/*** Menu de logos sociales **/
+
+.navbar .pull-right li a {
+	padding: 10px 5px 0 0;
+}
+
+.navbar .pull-right a img {
+	width: 40px;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	filter: url(filters/filters.svg#grayscale); 
+ 	filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); 
+}
+
+.navbar .pull-right a img:hover{
+	filter: none;
+    -webkit-filter: grayscale(0);
+}
+
+/*** Menu Principal ***/
 
 #navbar	nav li a {
 	color: white;

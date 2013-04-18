@@ -19,9 +19,8 @@
               <?php print render($primary_nav); ?>
             <?php endif; ?>
             <ul class="menu nav pull-right">
-              <li><a href="">facebook</a></li>
-              <li><a href="">twitter</a></li>
-              <li><a href="">google+</a></li>
+              <li><a href="#"><img src="<?php print $path_mlogos ."/facebook.png" ?>" /></a></li>
+              <li><a href="#"><img src="<?php print $path_mlogos ."/twet.png" ?>" /></a></li>
             </ul>
           </nav>
         </div>
@@ -88,12 +87,12 @@
     <div class="row">
       <div id="logos" class="span12">
         <ul>
-          <li><a href="#"><img src="<?php print $path_mlogos ."/drupal.png" ?>" /></a></li>
-          <li><a href="#"><img src="<?php print $path_mlogos ."/joomla.png" ?>" /></a></li>
-          <li><a href="#"><img src="<?php print $path_mlogos ."/ajax.png" ?>" /></a></li>
-          <li><a href="#"><img src="<?php print $path_mlogos ."/php.png" ?>" /></a></li>
-          <li><a href="#"><img src="<?php print $path_mlogos ."/mongodb.png" ?>" /></a></li>
-          <li><a href="#"><img src="<?php print $path_mlogos ."/mysql.png" ?>" /></a></li>
+          <li><a href="#"><img src="<?php print $path_mlogos ."/logos/drupal.png" ?>" /></a></li>
+          <li><a href="#"><img src="<?php print $path_mlogos ."/logos/joomla.png" ?>" /></a></li>
+          <li><a href="#"><img src="<?php print $path_mlogos ."/logos/ajax.png" ?>" /></a></li>
+          <li><a href="#"><img src="<?php print $path_mlogos ."/logos/php.png" ?>" /></a></li>
+          <li><a href="#"><img src="<?php print $path_mlogos ."/logos/mongodb.png" ?>" /></a></li>
+          <li><a href="#"><img src="<?php print $path_mlogos ."/logos/mysql.png" ?>" /></a></li>
         </ul>
       </div>
     </div>
