@@ -45,12 +45,16 @@ background: #002F51;
 
 #navbar	nav li a {
 	color: white;
-		}
+}
+
+#navbar	nav li a:hover{
+	text-shadow: 1px 1px 1px  #fff;
+}
 
 #navbar	nav li a.active {
 	background-color: white;
 	color: red;
-	}
+}
 
 
 .navbar .nav > li {
@@ -132,6 +136,14 @@ background: #002F51;
 
 }
 
+.block-fieldblock {
+
+}
+
+.block-fieldblock img {
+	margin-bottom: 10px;
+}
+
 /** Paneles Costume **/
 
 
@@ -139,6 +151,19 @@ background: #002F51;
 	min-height: 255px;
 }
 
+
+.portarow {
+	background: white;
+}
+
+.portarow h4{
+	padding-left: 1.5em;
+}
+
+.portarow p{
+	text-align: justify;
+	padding-left: 1.5em;
+}
 
 /*** Footer ***/
 
