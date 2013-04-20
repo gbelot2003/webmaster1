@@ -68,7 +68,7 @@ background: #002F51;
 #back-hero{
 	margin: 5px 0px 10px 0px;
 	padding: 5px 0px;
-	background: #002F51 url('backgrounds/grid') repeat; /* Old browsers */
+	background: #002F51 url('backgrounds/grid.png') repeat; /* Old browsers */
 	background-size: 38px;
 }
 
