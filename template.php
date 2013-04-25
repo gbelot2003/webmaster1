@@ -14,3 +14,7 @@ function webmaster1_preprocess_image_style(&$variables)  {
         $variables['attributes']['class'][] = 'img-polaroid';
     }
 }
+
+function webmaster1_menu_tree__menu_bliblioteca($variables){
+	return '<ul class="nav nav-tabs nav-stacked">' . $variables['tree'] . '</ul>';
+}
